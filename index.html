@@ -3,10 +3,17 @@
   <head>
     <title>CS1300 JavaScript Studio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+      </style>
   </head>
 
   <body>
-    <!-- TODO: ADD HTML FOR WHATEVER YOU WANT TO SHOW ON THE PAGE!  -->
+    <h1 class="heading">Plants!</h1>
+    <p>Here's a gallery of plants discovered after 1800 (courtesy of the Trefle API). Click the button below to see some rad flora!</p>
+    <button id="control" onclick=doCORSrequest()>Show me plants</button>
+    <div id="plants"></div>
   </body>
   <script src="app.js"></script>
 </html>
